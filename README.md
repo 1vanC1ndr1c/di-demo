@@ -1,2 +1,0 @@
-# di-demo
-Dependency Demo

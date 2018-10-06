@@ -8,13 +8,11 @@ import org.springframework.context.ApplicationContext;
 @SpringBootApplication
 public class DiDemoApplication {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
+		ApplicationContext ctx = SpringApplication.run(DiDemoApplication.class, args);
 
-        ApplicationContext ctx = SpringApplication.run(DiDemoApplication.class, args);
+		MyController controller = (MyController) ctx.getBean("myController");
 
-
-        MyController controller = (MyController) ctx.getBean("myController");
-
-        controller.hello();
-    }
+		controller.hello();
+	}
 }
