@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a11afd88-2351-42a2-b721-e37868b5190f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/ConstructorInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/ConstructorInjectedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/DiDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/DiDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/MyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/PropertyInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/PropertyInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/SetterInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/SetterInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/controllers/PropertyInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/controllers/PropertyInjectedControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/services/GreetingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/services/GreetingServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,25 +30,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="java" value="19" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="19" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1380" />
+          <entry key="java" value="1662" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1380" />
+          <entry key="JAVA" value="1662" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -58,22 +57,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/DiDemoApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/controllers/PropertyInjectedController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="255">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#434#435#0" expanded="true" />
@@ -83,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/guru/springframework/controllers/PropertyInjectedControllerTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/DiDemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+            <state relative-caret-position="340">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,8 +85,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/controllers/MyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="357">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/services/PrimaryGreetingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/guru/springframework/controllers/PropertyInjectedControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,19 +153,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/services/ConstructorGreetingService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-end-line="12" />
-              <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/services/SetterGreetingService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -160,11 +165,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/services/GreetingServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="119">
+              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
               <folding>
                 <element signature="e#295#296#0" expanded="true" />
                 <element signature="e#334#335#0" expanded="true" />
@@ -199,18 +204,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/services/GreetingServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/services/GreetingService.java" />
         <option value="$PROJECT_DIR$/src/test/java/guru/springframework/controllers/SetterInjectedControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/guru/springframework/controllers/ConstructorInjectedControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/MyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/DiDemoApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/services/ConstructorGreetingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/services/SetterGreetingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/ConstructorInjectedController.java" />
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/SetterInjectedController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/PropertyInjectedController.java" />
         <option value="$PROJECT_DIR$/src/test/java/guru/springframework/controllers/PropertyInjectedControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/services/PrimaryGreetingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/MyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/DiDemoApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/PropertyInjectedController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/services/GreetingServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -330,7 +336,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538918838245" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538919652161" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -411,7 +417,7 @@
       <updated>1538858850090</updated>
       <workItem from="1538858854005" duration="589000" />
       <workItem from="1538860575283" duration="241000" />
-      <workItem from="1538911383219" duration="5294000" />
+      <workItem from="1538911383219" duration="5951000" />
     </task>
     <servers />
   </component>
@@ -427,7 +433,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6124000" />
+    <option name="totallyTimeSpent" value="6781000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,23 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/controllers/MyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/DiDemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/services/ConstructorGreetingService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -568,17 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/services/GreetingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/services/GreetingService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -597,10 +575,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/controllers/PropertyInjectedController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/guru/springframework/controllers/PropertyInjectedControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/controllers/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/services/PrimaryGreetingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/DiDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/controllers/PropertyInjectedController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#434#435#0" expanded="true" />
@@ -609,12 +631,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/guru/springframework/controllers/PropertyInjectedControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/services/GreetingServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        <state relative-caret-position="119">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
           </folding>
         </state>
       </provider>
