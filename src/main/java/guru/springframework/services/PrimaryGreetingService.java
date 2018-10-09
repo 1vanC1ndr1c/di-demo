@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Primary//if there is more than one bean, i wanna use this one
-@Profile("en")
+@Profile({"en", "default"})//active if no active profile or en is active
 public class PrimaryGreetingService implements GreetingService {
 
     @Override
