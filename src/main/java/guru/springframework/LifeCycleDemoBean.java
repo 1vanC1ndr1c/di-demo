@@ -1,3 +1,4 @@
+/*
 package guru.springframework;
 
 import org.springframework.beans.BeansException;
@@ -63,4 +64,4 @@ public class LifeCycleDemoBean implements InitializingBean, DisposableBean, Bean
 
 
 }
-
+*/

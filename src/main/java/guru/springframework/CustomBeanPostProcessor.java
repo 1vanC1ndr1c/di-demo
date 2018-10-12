@@ -1,3 +1,4 @@
+/*
 package guru.springframework;
 
 import org.springframework.beans.BeansException;
@@ -24,3 +25,4 @@ public class CustomBeanPostProcessor implements BeanPostProcessor {
     }
 
 }
+*/
