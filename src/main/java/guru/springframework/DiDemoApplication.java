@@ -7,8 +7,10 @@ import guru.springframework.controllers.PropertyInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"guru.services","guru.springframework"})
 public class DiDemoApplication {
 
     public static void main(String[] args) {
@@ -18,7 +20,7 @@ public class DiDemoApplication {
 
         controller.hello();
 
-        System.out.println(controller.hello());//shorcut is SOUT in intelij
+        System.out.println(controller.hello());//shortcut is SOUT in intelij
         System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
         System.out.println(ctx.getBean(SetterInjectedController.class).sayHello());
         System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
