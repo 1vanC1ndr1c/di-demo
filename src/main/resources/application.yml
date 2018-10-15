@@ -3,3 +3,11 @@ guru:
         username:  JMS username
         password:  somepass
         url:  Someurl
+
+---
+#3 dashes indicate a file separator
+spring:
+      profiles: de
+guru:
+    jms:
+        username:  JMS username $$$$ German
